@@ -81,6 +81,11 @@ main {
   margin: 2rem 0rem;
   padding: 1rem 5rem;
   align-items: center;
+  transition: 0.5s;
+}
+.link:hover{
+  background: white;
+  border-radius: 1rem;
 }
 .link h2{
   padding: 0rem 2rem;
@@ -95,6 +100,10 @@ main {
   color: white;
   padding: 1rem;
   position: relative;
+  transition: 0.25s;
+}
+.contact:hover{
+  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.7);
 }
 .contact h2{
   color: white;
@@ -156,13 +165,10 @@ main {
 .cardinfo{
   display: flex;
   flex-direction: column;
-
 }
 .level{
   font-weight: bold;
   background: linear-gradient(to right top, #65dfc9, #6cdbeb);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-
-
 }
